@@ -1,8 +1,11 @@
 # dwODT
-Config files used for installing various MS 365 apps using Microsoft's Office Deployment Tool via CLI/Run
+Configuration files used for installing various MS 365 apps using Microsoft's Office Deployment Tool via CLI/Run.
 
 Download the Office Deployment Tool and read documentation at https://aka.ms/ODT
 
+This configuration set offers:
+* "Silent" install (black cmd window until completed)
+* Standalone Office app install
 
 # Instructions
 Upon downloading and running the .exe it will ask for a folder to extract files to, ideally you should pick a network location intended for file sharing so users have appropriate permissions to execute these files.
