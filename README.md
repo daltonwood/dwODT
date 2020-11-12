@@ -12,7 +12,7 @@ From CLI/Run enter the command for the app(s) you desire
 
 |All apps|\\\<SERVER>\<SHARE>\setupodt.exe /Configure BusRet64.xml|
 |-|-|
-|Excel|\\\<SERVER>\<SHARE>\setupodt.exe /Configure justExcel.xml|
+|Excel|\\\SERVER\SHARE\setupodt.exe /Configure justExcel.xml|
 |OneNote|\\\<SERVER>\<SHARE>\setupodt.exe /Configure justOneNote.xml|
 |Outlook|\\\<SERVER>\<SHARE>\setupodt.exe /Configure justOutlook.xml|
 |Skype|\\\<SERVER>\<SHARE>\setupodt.exe /Configure justSkype.xml|
