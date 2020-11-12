@@ -11,3 +11,7 @@ Once you've picked a folder and extracted the files, drop the dwODT files in the
 From CLI/Run enter the command for the app(s) you desire
 
 Note: ODT treats this installation as your 'Office installation', meaning if you choose to install only one app then it will be treated as your entire Office installation, you cannot install another Office app without uninstalling and re-installing or by using a special standalone installer (see OneNote
+
+Please note that ODT treats the app(s) you install as your "Office installation" meaning if you only install one app it will not let you install another as you'd be "modifying your office installation". You would need to uninstall Office and re-install using the correct configuration, or simply install the entire suite.
+
+If you need to install more than one app, but not the entire office suite, then please use ExcludeApp.xml for reference. See additional configuration options [here.](https://docs.microsoft.com/en-us/deployoffice/office-deployment-tool-configuration-options)
