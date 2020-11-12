@@ -5,7 +5,7 @@ Download the Office Deployment Tool and read documentation at https://aka.ms/ODT
 
 
 # Instructions
-Upon downloading and running the .exe it will ask for a folder to extract files to, ideally you should pick a network location intended for file sharing - this way users have appropriate permissions to execute these files.
+Upon downloading and running the .exe it will ask for a folder to extract files to, ideally you should pick a network location intended for file sharing so users have appropriate permissions to execute these files.
 
 Once you've picked a folder and extracted the files, drop the dwODT files in the same folder.
 
