@@ -3,9 +3,12 @@ Configuration files used for installing various MS 365 apps using Microsoft's Of
 
 Download the Office Deployment Tool and read documentation at https://aka.ms/ODT
 
-This configuration set offers:
+**This configuration set currently only works for [MS 365 Business Standard](https://docs.microsoft.com/en-us/office365/troubleshoot/installation/product-ids-supported-office-deployment-click-to-run):**
 * "Silent" install (black cmd window until completed)
 * Standalone Office app install
+
+*some context: I currently use this in a SysAdmin role deploying Microsoft 365 Business Standard, I intend on making config files [supporting more products](https://docs.microsoft.com/en-us/office365/troubleshoot/installation/product-ids-supported-office-deployment-click-to-run) just for fun and practice. 
+
 
 # Instructions
 Upon downloading and running the .exe it will ask for a folder to extract files to, ideally you should pick a network location intended for file sharing so users have appropriate permissions to execute these files.
@@ -28,4 +31,4 @@ From CLI/Run enter the command for the app(s) you desire
 # Notes
 Please note that ODT treats the app(s) you install as your "Office installation" meaning if you only install one app it will not let you install another as you'd be "modifying your office installation". You would need to uninstall Office and re-install using the correct configuration, or simply install the entire suite.
 
-If you need to install more than one app, but not the entire office suite, then please use ExcludeApp.xml for reference. See additional configuration options [here.](https://docs.microsoft.com/en-us/deployoffice/office-deployment-tool-configuration-options)
+If you need to install more than one app, but not the entire office suite, then please use ExcludeApp.xml for reference. See additional [configuration options here.](https://docs.microsoft.com/en-us/deployoffice/office-deployment-tool-configuration-options)
